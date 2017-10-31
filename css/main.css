@@ -138,6 +138,7 @@ nav a {
     color:#ff00bf;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 nav{
     width: 100%;
@@ -151,3 +152,82 @@ nav{
 .section-two{
     background-color: #652586; 
 }
+=======
+footer{
+    background-color:#333447;
+    color:#fff; 
+    position: relative;
+ }
+.app li{
+    /* outline: 5px solid red; */
+    padding: 0;
+    margin: 0;    
+    /* display: inline-block; */
+}
+.app ul{
+    list-style: none;
+    display: inline-block;
+    /* outline: 2px solid purple; */
+    padding: 0;
+    margin: 0;
+}
+.app a img{
+    width: 30%;
+    /* height: 60px; */
+    /* outline: 3px solid green; */
+    margin: 0;
+}
+.app{
+    position: relative;
+    left:70%;
+    display: inline-block;
+    top: 230px;
+}
+.column-1 ul,.column-2 ul,.column-3 ul{
+    list-style: none;
+    /* outline: 1px solid yellow; */
+    padding-left: 0;
+    margin-right: 160px;
+    margin-top: 23px;
+    font-weight: lighter;        
+}
+.column-1 li, .column-2 li, .column-3 li{
+    /* outline: 1px solid rgb(216, 129, 129); */
+    /* line-height: 21px; */
+    margin-bottom: 35px;
+}
+.row div  a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+footer .row{
+    margin-left: 120px;
+}
+ 
+ .row .column-1,.row .column-2, .row .column-3{
+     display: inline-block;
+     text-align: left;
+}
+.row{
+    /* display: inline-block; */
+}
+.social li{
+    display: inline-block;
+    list-style: none;
+}
+.social{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.social a{
+    border: 1px solid white;
+    border-radius: 90%;
+    color: #fff;
+    padding: 5px;
+}
+.social li{
+    margin:10px;
+}
+>>>>>>> 47f0b6ba08c32638a54da2662081b84263573b93
