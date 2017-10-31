@@ -3,18 +3,8 @@
  */
 
  *{
-<<<<<<< HEAD
-    margin:0;
-}
-nav{
-    width: 100%;
-    height: 110px;
-    background: #2c1e43; 
-    /* outline:1px solid yellow; */
-=======
      margin:0;
      font-family: 'Montserrat', sans-serif;
->>>>>>> 46ec890d438ef36b48481d457349438c817e040f
 }
 
 nav img{
@@ -33,7 +23,6 @@ nav li{
 nav a {
     text-decoration: none;    
     color: #fff;
-    
 }
 
 .first-section{
@@ -43,3 +32,50 @@ nav a {
     background-repeat: no-repeat;
     outline: 1px solid red;
 }
+footer{
+    
+}
+.app li{
+    outline: 5px solid red;
+    padding: 0;
+    margin: 0;    
+    /* display: inline-block; */
+}
+.app ul{
+    list-style: none;
+    display: inline-block;
+    outline: 2px solid purple;
+    padding: 0;
+    margin: 0;
+}
+.app a img{
+    width: 30%;
+    /* height: 60px; */
+    outline: 3px solid green;
+    margin: 0;
+}
+.column-1 ul,.column-2 ul,.column-3 ul{
+    list-style: none;
+    outline: 1px solid yellow;
+    padding-left: 0;
+    margin-right: 110px;
+    font-size: 14px;
+    margin-top: 23px;        
+}
+.column-1 li, .column-2 li, .column-3 li{
+    outline: 1px solid black;
+    /* line-height: 21px; */
+    margin-bottom: 18px;
+}
+.social li{
+    display: inline-block;
+    list-style: none;
+}
+
+.row .column-1,.row .column-2, .row .column-3{
+    display: inline-block;
+    /* outline: 1px solid green; */
+}
+
+    
+    
